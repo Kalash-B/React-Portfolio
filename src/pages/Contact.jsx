@@ -28,7 +28,21 @@ const Contact = () => {
   };
 
   return (
-    <section id="Contact" className="min-h-screen py-20 px-4 bg-gradient-to-br from-slate-900 to-slate-900 text-white flex justify-around items-center">
+    <section
+      id="Contact"
+      className="min-h-screen py-20 px-6 bg-gradient-to-br from-slate-900 to-slate-900 text-white flex flex-col md:flex-row justify-center items-center gap-12"
+    >
+      {/* Left Text Section */}
+      <div className="text-left md:max-w-lg font-serif">
+        <h2 className="text-6xl md:text-8xl font-semibold leading-none text-transparent bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text">
+          <span className="ml-8 ">Want to</span> <br />
+          <span className="italic md:ml-24 ml-16">start</span> <br />
+          <span className="">a new </span><span className="italic md:ml-32 ml-20">project?</span>
+        </h2>
+        <p className="mt-4 text-2xl tracking-wide">Or just say hello.</p>
+      </div>
+
+      {/* Right Contact Form Section */}
       <div className="w-full max-w-3xl bg-black/50 backdrop-blur-md p-8 rounded-2xl shadow-xl border border-white/10">
         <h2 className="text-4xl font-bold text-transparent bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text mb-8 text-center">
           Contact Me
@@ -88,10 +102,6 @@ const Contact = () => {
             </p>
           )}
         </form>
-      </div>
-      <div className="hidden sm:flex w-2/4">
-        <img className="w-full h-full" src="https://kalash-b.github.io/portfolio/assets/contact-me-Cq7Tu1lj.svg" alt=""></img>
-
       </div>
     </section>
   );

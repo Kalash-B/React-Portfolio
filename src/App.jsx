@@ -10,9 +10,9 @@ import WebFooter from "./components/WebFooter";
 
 const App = () =>{
     return(
-        <div className="relative min-h-screen overflow-hidden">
+        <div className="min-h-screen">
             <ParticlesBackground />
-            <div className="relative z-10">    
+            <div>    
                 <Navbar />
                 <Home />
                 <AboutMe />

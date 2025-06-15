@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {
   return (
-    <section id="Home" className="w-full min-h-screen flex items-center justify-around px-4 bg-transparent text-white text-center">
+    <section id="Home" className="z-10 w-full min-h-screen flex items-center justify-around px-4 bg-transparent text-white text-center">
       <div className="max-w-2xl w-full flex flex-col items-center gap-6">
       {/* Image */}
         <div className="relative mb-6 w-full group">

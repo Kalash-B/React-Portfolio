@@ -1,51 +1,53 @@
 import React from 'react';
 import ProjectCard from '../components/ProjectCard';
-import chatbotImg from '../assets/chatbot-Ecz8XnSq.png';
+import portfolio from '../assets/portfolio.png';
+import deepfake from '../assets/Deepfake.jpg';
+import text from '../assets/textOperation.png';
 
 
 const projects = [
   {
     title: 'Career Guidance Chatbot',
-    desc: 'AI-powered chatbot to help users with career guidance and recommendations.',
-    img: chatbotImg,
-    tech: ['Python', 'OpenAI API', 'Streamlit', 'Sklearn'],
+    desc: 'Develop an AI tool for translation, summarization, and text extraction using Python, Hugging Face, Google Translate, and OCR.',
+    img: text,
+    tech: ['Python', 'Hugging Face', 'NLP'],
     link: 'https://gitlab.com/Chitti333/career-guidance-bot',
-  },
-  {
-    title: 'Portfolio Website',
-    desc: 'Responsive portfolio website built with React and Tailwind CSS.',
-    img: '/assets/portfolio.png',
-    tech: ['React', 'Tailwind CSS', 'Vite'],
-    link: 'https://github.com/kalashbaldota/portfolio',
   },
   {
     title: 'Deepfake Detection',
     desc: 'Detects deepfake videos using CNN-based ML model.',
-    img: '/assets/deepfake.png',
-    tech: ['TensorFlow', 'OpenCV', 'Python'],
+    img: deepfake,
+    tech: ['TensorFlow', 'OpenCV', 'Python', 'React'],
     link: 'https://github.com/kalashbaldota/deepfake-detection',
   },
   {
-    title: 'Expense Tracker',
-    desc: 'Track daily expenses with charts and insights using MERN stack.',
-    img: '/assets/expense-tracker.png',
-    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
-    link: 'https://github.com/kalashbaldota/expense-tracker',
+    title: 'Portfolio Website',
+    desc: 'Responsive and animated portfolio website built with React and Tailwind CSS.',
+    img: portfolio,
+    tech: ['React', 'Tailwind CSS', 'GSAP', 'Vite'],
+    link: 'https://github.com/kalashbaldota/portfolio',
   },
-  {
-    title: 'Code Editor Clone',
-    desc: 'Web-based real-time code editor with syntax highlighting.',
-    img: '/assets/code-editor.png',
-    tech: ['React', 'Monaco Editor', 'WebSocket'],
-    link: 'https://github.com/kalashbaldota/code-editor-clone',
-  },
-  {
-    title: 'Blog Platform',
-    desc: 'A full-stack blog application with authentication and markdown support.',
-    img: '/assets/blog.png',
-    tech: ['Next.js', 'MongoDB', 'Tailwind'],
-    link: 'https://github.com/kalashbaldota/blog-platform',
-  }
+  // {
+  //   title: 'Expense Tracker',
+  //   desc: 'Track daily expenses with charts and insights using MERN stack.',
+  //   img: '/assets/expense-tracker.png',
+  //   tech: ['MongoDB', 'Express', 'React', 'Node.js'],
+  //   link: 'https://github.com/kalashbaldota/expense-tracker',
+  // },
+  // {
+  //   title: 'Code Editor Clone',
+  //   desc: 'Web-based real-time code editor with syntax highlighting.',
+  //   img: '/assets/code-editor.png',
+  //   tech: ['React', 'Monaco Editor', 'WebSocket'],
+  //   link: 'https://github.com/kalashbaldota/code-editor-clone',
+  // },
+  // {
+  //   title: 'Blog Platform',
+  //   desc: 'A full-stack blog application with authentication and markdown support.',
+  //   img: '/assets/blog.png',
+  //   tech: ['Next.js', 'MongoDB', 'Tailwind'],
+  //   link: 'https://github.com/kalashbaldota/blog-platform',
+  // }
 ];
 
 const Projects = () => {
