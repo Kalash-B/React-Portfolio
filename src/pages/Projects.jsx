@@ -7,25 +7,25 @@ import text from '../assets/textOperation.png';
 
 const projects = [
   {
-    title: 'Career Guidance Chatbot',
-    desc: 'Develop an AI tool for translation, summarization, and text extraction using Python, Hugging Face, Google Translate, and OCR.',
-    img: text,
-    tech: ['Python', 'Hugging Face', 'NLP'],
-    link: 'https://gitlab.com/Chitti333/career-guidance-bot',
-  },
-  {
     title: 'Deepfake Detection',
     desc: 'Detects deepfake videos using CNN-based ML model.',
     img: deepfake,
     tech: ['TensorFlow', 'OpenCV', 'Python', 'React'],
-    link: 'https://github.com/kalashbaldota/deepfake-detection',
+    link: 'https://github.com/Kalash-B/DeepFake-Detection-System',
   },
   {
     title: 'Portfolio Website',
     desc: 'Responsive and animated portfolio website built with React and Tailwind CSS.',
     img: portfolio,
     tech: ['React', 'Tailwind CSS', 'GSAP', 'Vite'],
-    link: 'https://github.com/kalashbaldota/portfolio',
+    link: 'https://github.com/Kalash-B/portfolio',
+  },
+  {
+    title: 'Text Manipulation Platform',
+    desc: 'AI tool for translation, summarization, and text extraction using Python, Hugging Face.',
+    img: text,
+    tech: ['Python', 'Hugging Face', 'NLP'],
+    link: '#',
   },
   // {
   //   title: 'Expense Tracker',

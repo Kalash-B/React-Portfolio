@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X, Download } from "lucide-react";
 import { Link } from "react-scroll";
+import resume from "../../public/KSB_Resume_new.pdf"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -64,9 +65,13 @@ const Navbar = () => {
 
           {/* Desktop Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <button className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 flex items-center gap-2 shadow-lg">
+            <a
+              href={resume}
+              download
+              className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 flex items-center gap-2 shadow-lg"
+            >
               <Download className="w-4 h-4" /> Resume
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -104,9 +109,13 @@ const Navbar = () => {
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-400 to-purple-400 group-hover:w-full transition-all duration-300"></span>
             </Link>
           ))}
-          <button className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 flex items-center gap-2 shadow-lg">
+          <a
+            href={resume}
+            download
+            className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 flex items-center gap-2 shadow-lg"
+          >
             <Download className="w-4 h-4" /> Resume
-          </button>
+          </a>  
         </div>
       </div>
 

@@ -53,7 +53,7 @@ const WebFooter = () => {
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="https://www.instagram.com/kalash_baldota/">
             <svg
               className="w-5 hover:text-white"
               xmlns="http://www.w3.org/2000/svg"
