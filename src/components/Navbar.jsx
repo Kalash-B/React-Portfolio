@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X, Download } from "lucide-react";
 import { Link } from "react-scroll";
-import resume from "../../public/KSB_Resume_new.pdf"
+import resume from "../assets/KSB_Resume_new.pdf"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
